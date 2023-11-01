@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="23.894" tests="8" skipped="0" failures="8" errors="0">
+<testcase classname="To check the project functionality" name="Project Functionality Validation Update Project" time="4.684">
+<failure type="org.openqa.selenium.NoSuchWindowException" message="Browsing context has been discarded
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8cc4d531-4f8d-4a83-bfd3-72924010a3e7, findElement {using=id, value=email_id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:22801, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17080, moz:profile: C:\Users\MUHAMM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:22801/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8cc4d531-4f8d-4a83-bfd3-72924010a3e7">
+<![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8cc4d531-4f8d-4a83-bfd3-72924010a3e7, findElement {using=id, value=email_id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:22801, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17080, moz:profile: C:\Users\MUHAMM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:22801/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8cc4d531-4f8d-4a83-bfd3-72924010a3e7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at Pages.ProjectManagementTab.user_logged(ProjectManagementTab.java:19)
+	at KuaiteeStepsDefinitions.ProjectFunctionality.user_logged_in(ProjectFunctionality.java:29)
+	at ✽.user logged in(file:///C:/Users/Muhammad%20Abdullah/eclipse-workspace/KualiteeSite/src/test/resources/Features/ProjectFunctionality.feature:5)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on login page of KTM..........................................passed
+Given user logged in........................................................failed
+And click on project module.................................................skipped
+And click on project trainee................................................skipped
+And click on update project button..........................................skipped
+And enter data in mandatory fields..........................................skipped
+When user clicks on update btn..............................................skipped
+Then updated successfully pop will appear...................................skipped
+And redirected to the project screen........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To check the project functionality" name="Project Functionality Validation With Null Fields" time="2.918">
+<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]">
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:146)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:100)
+	at KuaiteeStepsDefinitions.ProjectFunctionality.user_is_on_login_page_of_ktm(ProjectFunctionality.java:21)
+	at ✽.user is on login page of KTM(file:///C:/Users/Muhammad%20Abdullah/eclipse-workspace/KualiteeSite/src/test/resources/Features/ProjectFunctionality.feature:15)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on login page of KTM..........................................failed
+Given user logged in........................................................skipped
+And click on project module.................................................skipped
+And click on project trainee................................................skipped
+And click on update project button..........................................skipped
+And Make mandatory fields null..............................................skipped
+When user clicks on update btn..............................................skipped
+Then Required line will display.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To check the project functionality" name="Project Functionality Validation For Cancel BTN" time="2.954">
+<failure type="org.openqa.selenium.NoSuchWindowException" message="Browsing context has been discarded
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a3189269-c6a4-4d4a-b3ff-45f9d6bda6db, findElement {using=id, value=email_id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:5198, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14204, moz:profile: C:\Users\MUHAMM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5198/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a3189269-c6a4-4d4a-b3ff-45f9d6bda6db">
+<![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a3189269-c6a4-4d4a-b3ff-45f9d6bda6db, findElement {using=id, value=email_id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:5198, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14204, moz:profile: C:\Users\MUHAMM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5198/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a3189269-c6a4-4d4a-b3ff-45f9d6bda6db
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at Pages.ProjectManagementTab.user_logged(ProjectManagementTab.java:19)
+	at KuaiteeStepsDefinitions.ProjectFunctionality.user_logged_in(ProjectFunctionality.java:29)
+	at ✽.user logged in(file:///C:/Users/Muhammad%20Abdullah/eclipse-workspace/KualiteeSite/src/test/resources/Features/ProjectFunctionality.feature:26)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on login page of KTM..........................................passed
+Given user logged in........................................................failed
+And click on project module.................................................skipped
+And click on project trainee................................................skipped
+And click on update project button..........................................skipped
+And enter data in mandatory fields..........................................skipped
+And user clicks on cancel...................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To check the project functionality" name="Project Functionality Validation Columns Verification" time="2.682">
+<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]">
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:146)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:100)
+	at KuaiteeStepsDefinitions.ProjectFunctionality.user_is_on_login_page_of_ktm(ProjectFunctionality.java:21)
+	at ✽.user is on login page of KTM(file:///C:/Users/Muhammad%20Abdullah/eclipse-workspace/KualiteeSite/src/test/resources/Features/ProjectFunctionality.feature:34)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on login page of KTM..........................................failed
+Given user logged in........................................................skipped
+And click on project module.................................................skipped
+And click on project trainee................................................skipped
+Then Verify all the columns.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To check the project functionality" name="Project Functionality Validation Project Copy" time="2.622">
+<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]">
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:146)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:100)
+	at KuaiteeStepsDefinitions.ProjectFunctionality.user_is_on_login_page_of_ktm(ProjectFunctionality.java:21)
+	at ✽.user is on login page of KTM(file:///C:/Users/Muhammad%20Abdullah/eclipse-workspace/KualiteeSite/src/test/resources/Features/ProjectFunctionality.feature:41)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on login page of KTM..........................................failed
+Given user logged in........................................................skipped
+And click on project module.................................................skipped
+And click on copy...........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To check the project functionality" name="Project Functionality Validation Project Delete" time="2.683">
+<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]">
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:146)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:100)
+	at KuaiteeStepsDefinitions.ProjectFunctionality.user_is_on_login_page_of_ktm(ProjectFunctionality.java:21)
+	at ✽.user is on login page of KTM(file:///C:/Users/Muhammad%20Abdullah/eclipse-workspace/KualiteeSite/src/test/resources/Features/ProjectFunctionality.feature:47)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on login page of KTM..........................................failed
+Given user logged in........................................................skipped
+And click on project module.................................................skipped
+And click on delete.........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To check the project functionality" name="Project Functionality Validation Project Delete Cancel" time="2.534">
+<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]">
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:146)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:100)
+	at KuaiteeStepsDefinitions.ProjectFunctionality.user_is_on_login_page_of_ktm(ProjectFunctionality.java:21)
+	at ✽.user is on login page of KTM(file:///C:/Users/Muhammad%20Abdullah/eclipse-workspace/KualiteeSite/src/test/resources/Features/ProjectFunctionality.feature:53)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on login page of KTM..........................................failed
+Given user logged in........................................................skipped
+And click on project module.................................................skipped
+And click on delete function................................................skipped
+And click on cancel.........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To check the project functionality" name="Project Functionality Validation Archive BUTN" time="2.611">
+<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]">
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'MUHAMMADABDULLA', ip: '172.28.2.76'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:146)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:100)
+	at KuaiteeStepsDefinitions.ProjectFunctionality.user_is_on_login_page_of_ktm(ProjectFunctionality.java:21)
+	at ✽.user is on login page of KTM(file:///C:/Users/Muhammad%20Abdullah/eclipse-workspace/KualiteeSite/src/test/resources/Features/ProjectFunctionality.feature:60)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on login page of KTM..........................................failed
+Given user logged in........................................................skipped
+And click on project module.................................................skipped
+Then click on archive button................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
